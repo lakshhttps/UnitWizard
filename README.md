@@ -1,4 +1,5 @@
 This is my first project : UnitWizard
+
 It can convert a physical quantity like length,mass,temprature into its respective different unit.
 
 Mapping(Key):
@@ -21,3 +22,13 @@ Mapping(Key):
   Temprature:- 1==>Celsius , 
                 2==>Fahrenheit , 
                 3==>Kelvin
+
+It is still a basic project built to learn about the concept of git and github and basic C++. In the future versions the following functionalities will be added:
+
+1. Energy conversion
+2. Speed conversion
+3. Data conversion
+4. Volume conversion
+5. Area conversion
+6. Power conversion
+7. More units of already present quantites will also be added.
