@@ -9,14 +9,15 @@ Mapping(Key):
  3-->Temprature Conversion
 
  For Units:-
-  Length:-1==>Kilometers
-            2==>Meters
-            3==>Centimeters
  
-  Mass==> 1==>Kilograms
+  Length:-  1==>Kilometers , 
+            2==>Meters , 
+            3==>Centimeters , 
+ 
+  Mass:- 1==>Kilograms
           2==>Grams
           3==>Milligrams
   
-  Temprature==> 1==>Celsius
+  Temprature:- 1==>Celsius
                 2==>Fahrenheit
                 3==>Kelvin
