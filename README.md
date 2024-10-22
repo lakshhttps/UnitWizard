@@ -23,7 +23,7 @@ Mapping(Key):
                 2==>Fahrenheit , 
                 3==>Kelvin
 
-It is still a basic project built to learn about the concept of git and github and basic C++. In the future versions the following functionalities will be added:
+It is still a basic project built to learn about the concept of git , github and to further my knowledge in C++. In the future versions the following functionalities will be added:
 
 1. Energy conversion
 2. Speed conversion
