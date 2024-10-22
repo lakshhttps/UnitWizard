@@ -4,7 +4,7 @@ int main(){
     int flag=1;
     while(flag){
     double cm=0,m=0,km=0,f=0,k=0,c=0,g=0,kg=0,mg=0,gmg=0,mgg=0,gkg=0,kgg=0,kmm=0,kcm=0,mkm=0,mcm=0,cmkm=0,cmm=0,kgmg=0,mgkg=0,ck=0,cf=0,fk=0,fc=0,kc=0,kf=0;
-    cout<<"Welcome to Unit Convertor\n";
+    cout<<"Welcome to UnitWizard\n";
     cout<<"Enter Conversion Code : ";
     int pq;
     cin>>pq;
