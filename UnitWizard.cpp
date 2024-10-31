@@ -3,8 +3,8 @@ using namespace std;
 int main(){
     int flag=1;
     while(flag){
-    double cm=0,m=0,km=0,f=0,k=0,c=0,g=0,kg=0,mg=0,gmg=0,mgg=0,gkg=0,kgg=0,kmm=0,kcm=0,mkm=0,mcm=0,cmkm=0,cmm=0,kgmg=0,mgkg=0,ck=0,cf=0,fk=0,fc=0,kc=0,kf=0;
-    cout<<"Welcome to UnitWizard\n";
+    double cm=0,m=0,km=0,f=0,k=0,c=0,g=0,kg=0,mg=0,gmg=0,mgg=0,gkg=0,kgg=0,kmm=0,kcm=0,mkm=0,mcm=0,cmkm=0,cmm=0,kgmg=0,mgkg=0,ck=0,cf=0,fk=0,fc=0,kc=0,kf=0,kb=0,mb=0,gb=0,kbgb=0,kbmb=0,gbmb=0,gbkb=0,mbgb=0,mbkb=0;
+    cout<<"Welcome to Unit Convertor\n";
     cout<<"Enter Conversion Code : ";
     int pq;
     cin>>pq;
@@ -154,7 +154,7 @@ int main(){
                 cout<<"Both units cannot be same";
                 break;
                 case 2 :
-                cf=(c*(9/5))+32;
+                cf=(c*(9/5.0))+32;
                 cout<<"Value in Fahrenheit : "<<cf;
                 break;
                 case 3 :
@@ -170,14 +170,14 @@ int main(){
             cin>>f;
             switch(u2){
                 case 1 :
-                 fc=(f-32)*(5/9);
+                 fc=(f-32)*(5.0/9);
                 cout<<"Value in Celsius : "<<fc;
                 break;
                 case 2 :
                 cout<<"Both units cannot be same\n";
                 break;
                 case 3 :
-                fk=(f-32)*(5/9)+273.15;
+                fk=(f-32)*(5/9.0)+273.15;
                 cout<<"Value in Kelvin : "<<fk;
                 break;
                 default :
@@ -205,6 +205,70 @@ int main(){
             break; 
             default :
                 cout<<"INVALID CODE\n";   
+        }
+        break;
+         case 4 :
+        cout<<"Data Conversion\n";
+        switch(u1){
+            case 1:
+            cout<<"Enter value in Kilobytes : ";
+            cin>>kb;
+            switch(u2){
+                case 1 :
+                cout<<"Both units cannot be same";
+                break;
+                case 2 :
+                 kbmb=kb/1024;
+                cout<<"Value in Megabytes : "<<kbmb;
+                break;
+                case 3 :
+                kbgb=kb/(1024*1024);
+                cout<<"Value in Gigabytes : "<<kbgb;
+                break;
+                default :
+                cout<<"INVALID CODE\n";
+            }
+            break;
+            case 2 :
+            cout<<"Enter value in Megabytes : ";
+            cin>>mb;
+            switch(u2){
+                case 1 :
+                mbkb=mb*1024;
+                cout<<"Value in Kilobytes : "<<mbkb;
+                break;
+                case 2 :
+                cout<<"Both units cannot be same\n";
+                break;
+                case 3 :
+                mbgb=mb/1024;
+                cout<<"Value in Gigabytes : "<<mbgb;
+                break;
+                default :
+                cout<<"INVALID CODE\n";
+            }
+            break;
+            case 3:
+            cout<<"Enter value in Gigabytes : ";
+            cin>>gb;
+            switch(u2){
+                case 1 :
+                gbkb=gb*(1024*1024);
+                cout<<"Value in Kilobytes : "<<gbkb;
+                break;
+                case 2 :
+                gbmb=gb*1024;
+                cout<<"Value in Megabytes : "<<gbmb;
+                break;
+                case 3 :
+                cout<<"Both units cannot be same\n";
+                break;
+                default :
+                cout<<"INVALID CODE\n";
+            }
+            break;
+            default :
+                cout<<"INVALID CODE\n";    
         }
         break;
         default :
