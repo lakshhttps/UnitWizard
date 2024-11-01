@@ -8,7 +8,7 @@ Mapping(Key):
  1-->Length Conversion
  2-->Mass Conversion
  3-->Temprature Conversion
-
+ 4-->Data Conversion
  For Units:-
  
   Length:-  1==>Kilometers , 
@@ -22,6 +22,10 @@ Mapping(Key):
   Temprature:- 1==>Celsius , 
                 2==>Fahrenheit , 
                 3==>Kelvin
+
+  Data:- 1==>Kilobytes
+         2==>Megabytes
+         3==>Gigabytes
 
 It is still a basic project built to learn about the concept of git , github and to further my knowledge in C++. In the future versions the following functionalities will be added:
 
